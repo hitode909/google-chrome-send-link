@@ -1,0 +1,17 @@
+{
+    "name": "slink",
+    "version": "1.0",
+    "description": "send link",
+    "permissions" : [
+        "contextMenus",
+        "tabs",
+        "cookies",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+               "128": "icon128.png" },
+    "background_page" : "background.html",
+    "options_page": "options.html"
+}
